@@ -1,16 +1,31 @@
 import React from 'react'
 
-const Weather = (props) => {
-  return (
-      <div>
-        { props.city && props.country && <h3>Location: {props.city}, {props.country}</h3> }
-        { props.temperature && <p>Temperature: {props.temperature}</p> }
-        { props.humidity && <p>Humidity: {props.humidity}</p>}
-        { props.description && <p>Conditions: {props.description}</p>}
-        { props.error && <p>{props.error}</p>}
-      </div>
-    )
-}
+const Weather = props => (
+  <div>
+    { props.city && props.country && <h3>Location: {props.city}, {props.country}</h3> }
+    { props.temperature && <p>Temperature: {props.temperature}</p> }
+    { props.humidity && <p>Humidity: {props.humidity}</p>}
+    { props.description && <p>Conditions: {props.description}</p>}
+    { props.error && <p>{props.error}</p>}
+  </div>
+
+)
+
+
+
+
+
+// const Weather = (props) => {
+//   return (
+//       <div>
+//         { props.city && props.country && <h3>Location: {props.city}, {props.country}</h3> }
+//         { props.temperature && <p>Temperature: {props.temperature}</p> }
+//         { props.humidity && <p>Humidity: {props.humidity}</p>}
+//         { props.description && <p>Conditions: {props.description}</p>}
+//         { props.error && <p>{props.error}</p>}
+//       </div>
+//     )
+// }
 
 // class Weather extends React.Component {
 //   render() {
