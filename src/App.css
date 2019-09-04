@@ -38,6 +38,7 @@ body {
   letter-spacing: 2px;
   line-height: 1.3;
   font-family: 'Roboto Slab', serif;
+  color: #fff;
 }
 
 .title-container__subtitle {
@@ -46,6 +47,7 @@ body {
   letter-spacing: 1px;
   line-height: 1.5;
   font-family: "Merriweather", serif;
+  color: #fff;
 }
 
 .form-container {
