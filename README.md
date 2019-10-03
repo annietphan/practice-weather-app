@@ -1,4 +1,4 @@
-# BookWire
+# Weather App
 
 This quick WeatherFinder app is built on React and fetches real-time weather information from openweathermap's Public API.
 
