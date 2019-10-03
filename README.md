@@ -4,6 +4,7 @@ This quick WeatherFinder app is built on React and fetches real-time weather inf
 
 ## Features
 * Search a location anywhere in the world
+* Fetches from external API
 * Displays the temperature and weather conditions
 * Single page app
 
