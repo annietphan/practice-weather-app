@@ -3,7 +3,7 @@
 This quick WeatherFinder app is built on React and fetches real-time weather information from openweathermap's Public API.
 
 ## Features
-* Search a locationa anywhere in the world
+* Search a location anywhere in the world
 * Displays the temperature and weather conditions
 * Single page app
 
